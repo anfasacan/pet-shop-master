@@ -30,7 +30,17 @@
 
   <div class="form-group">
       <label>Merk</label>
-      <input type="text" class="form-control" name="merk_id">
+      <br>
+      <select  class="form-control" name="merk_id">
+        <option value="99" class="form-control" name="merk_id" ></option>
+        <option value="1" class="form-control" name="merk_id">Whiskas</option>
+        <option value="2" class="form-control" name="merk_id" >Bold</option>
+        <option value="3" class="form-control" name="merk_id" >Equilibrio</option>
+        <option value="4" class="form-control" name="merk_id" >Friskies</option>
+        <option value="5" class="form-control" name="merk_id" >Me-O</option>
+        <option value="6" class="form-control" name="merk_id" >Royal Canin</option>
+      </select>
+      {{-- <input type="text" class="form-control" name="merk_id"> --}}
   </div>
 
   <div class="form-group">
