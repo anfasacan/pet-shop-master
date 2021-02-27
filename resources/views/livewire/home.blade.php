@@ -5,7 +5,7 @@
       <img src="{{ url('assets/slider/bg.png') }}" alt="">
    </div>
 
-   {{-- PILIH LIGA  --}}
+   
    <section class="pilih-liga mt-4">
       <h3><strong>Pilih Merk</strong></h3>
       <div class="row mt-4">
