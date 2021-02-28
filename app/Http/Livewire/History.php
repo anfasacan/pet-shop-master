@@ -16,7 +16,11 @@ class History extends Component
         {
             $this->pesanans = Pesanan::where('user_id', Auth::user()->id)->where('status', '!=', 0)->get();
         }
-        
+        else{
+            return view('auth.login');
+        }
         return view('livewire.history');
+        
+        
     }
 }
